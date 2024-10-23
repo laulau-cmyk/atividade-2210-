@@ -1,0 +1,60 @@
+
+/*Estilizando gerais para o corpo da pagina */
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(9, 19, 75);
+}
+header{
+    background-color: rgba(1, 40, 165, 0.76);/*cor de fundo do cabeçalho*/
+    color: rgb(33, 72, 99); /*cor das letras do cabeçalho*/
+padding:20px; /*preenchimento do cabeçalho*/
+text-align:center; /*alinhando o texto dentro do cabeçalho*/
+}                                                             
+nav{
+    background-color: rgba(2, 95, 201, 0.712);
+    color: rgb(13, 27, 102);
+    padding: 20px;
+}
+nav ul{
+    /*remove os marcadores da lista*/
+    list-style-type: none;
+    /* Exibe os itens da lista horizontalmente */
+    justify-content: center;
+    display: flex;
+}
+nav ul li{
+    margin:0 20px; /*espaçamento entre os itens*/
+
+}
+nav ul li a{
+    color: rgb(4, 27, 48);
+    text-decoration: none; /*remove o sublinhado dos links */
+    transition:color 0.3s; /*transição sua ve para hover */
+}
+nav ul li a :hover{
+    color: rgb(50, 49, 100); /* hover muda a cor quando aproxima o cursos*/
+
+}
+/*estilo para conteudo principal */ 
+article{
+    background-color:rgb(21, 11, 68);
+    color:rgba(15, 93, 129, 0.925);
+    padding:30px;
+    text-align:justify;
+}
+/*estilizando o rodapé*/
+footer{
+    background-color:rgb(21, 19, 161);
+color:rgba(0, 2, 124, 0.76);
+text-align:center;
+padding:30px;
+margin-top:30px;
+}
+.imagem{
+    width:800px;
+    margin-bottom: 40px;
+}
+.video{
+    width: 500px;
+    height: 500px;
+}
